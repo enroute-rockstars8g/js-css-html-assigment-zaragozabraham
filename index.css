@@ -1,0 +1,147 @@
+:root{
+    --violet: #4A306D;
+}
+body{
+    background-color: RGB(207, 222, 231);
+    margin: 2%;
+    padding: 2%;
+}
+
+#Container{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+#Img{
+    pad: 4%;
+    width: 40%;
+}
+
+#PP{
+    margin: 5%;
+    max-height: 40vh;
+    max-width: 40vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.088);
+}
+
+#Content{
+    width: 70%;
+    padding: 2%;
+    border-radius: 1%;
+}
+
+#Title{
+    margin-bottom: 1vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5vh;
+}
+
+#Subtitle{
+    margin-top: 0;
+    margin-bottom: 1vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 7vh;
+}
+
+#RegularText{
+    margin-top: 1vh;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vh;
+}
+
+#Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Exp, #Background{
+    font-family: "Roboto", sans-serif;
+    font-size: 3vh;
+    height: 6vh;
+    width: 35vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#Exp{
+    background-color: transparent;
+    border: 2px solid var(--violet);
+    color: var(--violet);
+}
+
+#Background{
+    background-color: var(--violet);
+    color: aliceblue;
+}
+
+#Container2{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    justify-content: flex-start;
+}
+
+#Trick1, #Trick2{
+    max-height: 40vh;
+    padding: 2%;
+}
+#Mage1{
+    max-height: 90%;
+    max-width: 30vw;
+}
+
+#MageSpeech{
+    font-family: "Roboto", sans-serif;
+    font-size: 3vh;
+}
+
+#TellButton{
+    font-family: "Roboto", sans-serif;
+    font-size: 2vh;
+    height: 4vh;
+    width: 10vh;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid var(--violet);
+    color: var(--violet);
+}
+
+input[type=text] {
+    font-family: "Roboto", sans-serif;
+    font-size: 2vh;
+    font-weight: bold;
+    color: var(--violet);
+    border: none;
+    height: 4vh;
+    background-color: transparent;
+    border-bottom: 2px solid var(--violet);
+  }
+#alert{
+    height: 6vh;
+    width: 6vh;
+    margin-left: 40%;
+}
+
+#MoreData {
+    text-align: center;
+}
+
+.BP, .EP {
+    font-family: "Roboto", sans-serif;
+    font-size: 3vh;
+}
+#BP, #EP {
+    visibility: hidden;
+}

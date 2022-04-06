@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Rockstars-8g</title>
+        <meta name="description" content="Sitio web demo del curso de frontend"/>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Beau+Rivage|Roboto">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script type="text/javascript" src="./index.js"></script>
+        <div id="Container">
+            <div id="Img">
+                <img id="PP" src="./assets/pp.jpg" alt="Me">
+            </div>
+            <div id="Content">
+                <p id="Title">This is me</p>
+                <p id="Subtitle">Abraham Zaragoza</p>
+                <p id="RegularText">I'm a 25 yo boy with dreams and aspirations . Currenlty studying Software Engineering, you may ask where? Let's focus in more relevant other topics.  </p>
+                <div id="Buttons">
+                    <button id="Exp" onclick="switchEP('EP')">Experience</button>
+                    <button id="Background" onclick="switchBP('BP')">More Background</button>
+                </div>
+            </div>
+        </div>
+        <div id="MoreData">
+            <p id="EP" class="EP">Mobile Development with Flutter.<br>Basic data analysis with Python + Pandas<br>Development with JAVA EE (never use it after training)</p>
+            <p id="BP" class="BP">So you like chisme. I droped out of Med School after 4 years.</p>
+        </div>
+        <div id="JSContent">
+            <div id="Container2">
+                <div id="Trick1">
+                    <img id="Mage1" src="./assets/mage.png" alt="Mage Image">
+                </div>
+                <div id="Fib">
+                    <p id="MageSpeech"> Tell me your favorite number and I'll turn it into a Fibonacci Sequence number and then...</p>
+                    <input id="FiboInput" type="text" />
+                    <button id="TellButton" onclick="fibo()">Tell</button>
+                </div>
+                <div id="fiboContainer"></div>
+            </div>
+            <div id="Container2">
+                <div id="Trick2">
+                    <img id="Mage1" src="./assets/mage.png" alt="Mage Image">
+                </div>
+                <div id="Fac">
+                    <p id="MageSpeech"> Tell me your favorite number and I'll turn it into a Fibonacci Sequence number and then...</p>
+                    <input id="FacInput" type="text" />
+                    <button id="TellButton" onclick="fact()">Tell</button>
+                </div>
+                <div id="facContainer"></div>
+            </div>
+            
+            <div id="Fac"></div>
+        </div>
+    </body>
+</html>
